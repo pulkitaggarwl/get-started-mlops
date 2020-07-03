@@ -1,0 +1,13 @@
+
+name: post-model-deploy
+
+on:
+  repository_dispatch:
+    types: [model-deployed]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: post deploy
+        run: echo "code after Model Has been Deployed"
