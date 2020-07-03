@@ -6,7 +6,6 @@ on:
       - master
     paths:
       - '.github/workflows/deploy_train.yml'
-
 jobs:
   train:
     runs-on: ubuntu-latest
