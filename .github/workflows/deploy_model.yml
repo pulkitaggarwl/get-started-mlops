@@ -51,7 +51,6 @@ jobs:
 
       # Deploy your model to production
       - name: Prod Deploy
-        if: github.event.client_payload.slash_command.prod == 'true'
         id: aml_prod_deploy
         uses: Azure/aml-deploy@v1
         with:
