@@ -1,4 +1,4 @@
-name: aml-register-model
+name: Deploy the trained model
 
 on:
   repository_dispatch:
