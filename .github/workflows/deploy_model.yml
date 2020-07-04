@@ -19,7 +19,7 @@ jobs:
         id: checkout_repository
         uses: actions/checkout@v2
     
-      - name: Connect/Create Azure Machine Learning Workspace
+      - name: Connect Azure Machine Learning Workspace
         id: aml_workspace
         uses: Azure/aml-workspace@v1
         with:
