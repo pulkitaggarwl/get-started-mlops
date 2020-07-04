@@ -65,7 +65,13 @@ To do so, click on the Settings tab in your repository, then click on Secrets an
 Please follow [this link](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets) for more details. 
 
 #### To Allow Azure to trigger a GitHub Workflow
- We also need GH PAT token with repo access so that we can trigger a GH workflow when the training is completed on Azure Machine Learning. Add the PAT token with as [a secret](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets) with the name `PATTOKEN` in your GitHub repository:
+ We also need GH PAT token with `repo` access so that we can trigger a GH workflow when the training is completed on Azure Machine Learning. 
+ 
+ <p align="center">
+  <img src="docs/images/pat_scope.PNG" alt="GitHub Template repository" width="700"/>
+</p>
+ 
+ Add the PAT token with as [a secret](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets) with the name `PATTOKEN` in your GitHub repository:
  <p align="center">
   <img src="docs/images/pat_secret.png" alt="GitHub Template repository" width="700"/>
 </p>
