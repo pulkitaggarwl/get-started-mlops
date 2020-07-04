@@ -1,4 +1,4 @@
-# Test Actions train a model on Azure Machine Learning  
+# Test Actions train a model on Azure Machine Learning   
 name: aml-deploy-infrastructure 
 on:
   push:
