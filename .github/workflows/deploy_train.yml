@@ -1,5 +1,5 @@
-# Test Actions train a model on Azure Machine Learning   
-name: aml-deploy-infrastructure 
+# Creates AzML Infra and Train a model on Azure Machine Learning   
+name: Create Infra and Train Model
 on:
   push:
     branches:
